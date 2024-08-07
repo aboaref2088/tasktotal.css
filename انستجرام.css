@@ -1,0 +1,32 @@
+/* الأسلوب الأساسي لجميع الشاشات */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    width: 100%;
+    padding: 20px;
+  }
+  
+  /* الشاشات الصغيرة (مثل الهواتف المحمولة) */
+  @media only screen and (max-width: 600px) {
+    .container {
+      background-color: lightblue;
+    }
+  }
+  
+  /* الشاشات المتوسطة (مثل الأجهزة اللوحية) */
+  @media only screen and (min-width: 601px) and (max-width: 1024px) {
+    .container {
+      background-color: lightgreen;
+    }
+  }
+  
+  /* الشاشات الكبيرة (مثل أجهزة الكمبيوتر المكتبية) */
+  @media only screen and (min-width: 1025px) {
+    .container {
+      background-color: lightcoral;
+    }
+  }

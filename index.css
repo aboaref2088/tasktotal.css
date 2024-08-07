@@ -1,0 +1,1381 @@
+
+*{
+
+    margin:0px 0px;
+    padding: 0px 0px;
+    box-sizing:border-box;
+}
+
+/* navbar */
+.parant{
+
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+    align-items: center;
+    box-shadow: inset 0px 0px 10px 0px brown;
+}
+
+.parant .one img{
+    width: 50px;
+    border-radius: 50px;
+    margin-left: 20px;
+}
+
+.parant .two{
+
+    margin-left: 0px;
+}
+
+.section1.one div{
+
+  width: 50%;
+}
+.parant .two .search .ab{
+
+    background-color: rgb(211, 203, 203);
+    border-radius: 50px;
+    height: 40px;
+    width: 300px;
+    text-align: center;
+    border: none;
+    position: relative;
+}
+
+.parant .two .search img{
+
+    position: absolute;
+    width: 30px;
+    left: 80px;
+    padding-top: 8px;
+}
+
+.parant div.tree{
+
+    display: flex;
+    flex-direction: row;
+
+}
+
+.parant div.tree ul{
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.parant div.tree ul li{
+
+    margin-left: 10px;
+    list-style: none;
+    font-size: x-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: brown;
+    margin-left: 30px;
+}
+
+.parant div.tree ul li img{
+
+    background-color:rgb(221, 221, 240);
+    border-radius: 50px;
+}
+h2{
+
+    margin-top: 13px;
+    margin-left: 20px;
+    color: brown;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 20px;
+
+}
+
+.parant div.tree ul.instagram{
+
+    background-color: rgb(20, 13, 13);
+}
+
+
+
+
+@media screen and (max-width: 480px){
+    body{
+      background-color: lightgreen;
+    }
+
+    
+    .parant{
+        display: block;
+        flex-direction: column;
+        height: 600px;
+        background-color: rgb(50, 189, 147);
+        width:400px;
+    }
+
+    .search{
+
+      background-color: blanchedalmond;
+      margin-top: 500px;    
+    }
+
+
+    .section1 .one{
+
+      width: 60%;
+      display: flex;
+      background-color: blue;
+    }
+
+
+
+
+
+ 
+    .parant{
+
+      display: flex;
+      flex-direction: column;
+      height: 200px;
+      background-color: rgb(150, 211, 155);
+      width:100%;
+    }
+    
+    .imgg{
+    
+      width: 150px;
+    }
+    
+    .mohamed .ha{
+      margin-top:100px ;
+      color: rgb(56, 10, 10);
+      width: 40%;
+    }
+    
+
+
+
+  }
+
+  
+@media screen and (max-width: 480px)and (max-width: 576px){
+    body{
+      background-color: lightgreen;
+    }
+.section1.man.immg{
+
+  width: 30px;
+  right: 50%;
+  height: 20px;
+}
+   h2{
+
+    display: none;
+    position: static;
+    z-index: -1;
+   }
+    .parant{
+        display: flex;
+        flex-direction: column;
+        height: 300px;
+        background-color: rgb(50, 189, 147);
+        width:100%;
+    }
+    .parant .search{
+
+      width: 480px;
+    }
+    .mohamed{
+
+        background-color: aliceblue;
+        display: none;
+    }
+
+
+.section1 .one{
+
+  width: 100%;
+  display: inline;
+  background-color: blue;
+}
+
+
+ 
+.parant{
+
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  background-color: rgb(150, 211, 155);
+  width:100%;
+}
+
+.imgg{
+
+  width: 150px;
+}
+
+.mohamed .ha{
+  margin-top:100px ;
+  color: rgb(56, 10, 10);
+  width: 40%;
+}
+
+
+/* serch */
+
+.ab{
+
+  background-color: rgb(211, 203, 203);
+  border-radius: 50px;
+  height: 40px;
+  width: 300px;
+  text-align: center;
+  border: none;
+  position: relative;
+}
+
+.search.abb{
+
+  position: absolute;
+  
+}
+
+  }
+
+  
+  @media screen and (max-width: 769px){
+    body{
+      background-color: rgb(110, 102, 190);
+    }
+  
+.parant{
+
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  background-color: rgb(150, 211, 155);
+  width:100%;
+}
+
+.imgg{
+
+  width: 150px;
+}
+
+.mohamed .ha{
+  margin-top:100px ;
+  color: rgb(56, 10, 10);
+  width: 40%;
+}
+
+
+
+/* serch */
+
+.search{
+
+  background-color: rgb(211, 203, 203);
+  border-radius: 50px;
+  height: 40px;
+  width: 300px;
+  text-align: center;
+  border: none;
+  position: relative;
+  text-align: start;
+}
+
+.abb{
+
+  position: absolute;
+  z-index: -10;
+
+} 
+
+}
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* section1 */
+.section1{
+
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+
+}
+
+
+
+
+
+/* sidebar */
+
+.section1 {
+
+    display: flex;
+    overflow-y: hidden;
+}
+.section1 .one {
+    width: 25%;
+    background-color:rgb(121, 82, 82);
+    max-height:930px;
+}
+
+.section1 .one div h2{
+
+    border-radius: 50px;
+    background-color:  rgb(221, 213, 213);
+    margin-top: 50px;
+    border-width: 30px;
+    text-align: center;
+    margin-right: 20px;
+    margin-bottom: 150px;
+}
+
+.one:hover{
+    overflow-y: scroll;
+}
+
+.one {
+
+    overflow: hidden;
+}
+
+.man{
+    top: 1800px;
+}
+
+
+
+
+
+
+/* صور الاثاث   */
+
+.mohamed{
+
+    width: 75%;
+    background-color: rgb(226, 195, 195);
+}
+
+.mohamed h1{
+
+        padding-bottom:50px;
+        color: blueviolet;
+        text-align: center;
+        padding-top: 30px;
+}
+
+.mohamed .imgg{
+
+    margin-top: 80px;
+}
+.mohamed ul{
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.mohamed ul li{
+
+    width: 33%;
+}
+.mohamed ul li img{
+    height: 100px;
+    margin: 20px 20px;
+    width: 80%;
+    transition: all;
+    transition-duration: 1s;
+    opacity: 1;
+    filter: blur(4);
+    border-radius: 20px;
+    
+}
+
+
+
+.mohamed ul li div p{
+
+    background-color: greenyellow;
+}
+
+/* الصورة 1 */
+
+
+.helo{
+    top:-100px;
+    background-color: black;
+    position: relative;
+    transform-style:preserve-3d;
+    transition: all 1s ease-in-out;
+    perspective: 1000px; 
+    margin-top: 100px;
+
+  }
+
+ 
+  .helo:hover{
+
+    transform: rotateY(180deg);
+    background-color: black;
+
+}
+
+
+.helo div{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    backface-visibility: hidden; 
+    top: 0;
+    left: 0;
+    padding: 0px;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+
+
+  }
+
+
+  .helo .immg{
+    z-index: 2;
+  }
+
+  .helo .ppp{
+
+    z-index: 1;
+    transform: rotateY(180deg);
+    font-size: small;
+
+  }
+
+  .helo .ppp p{
+
+    width: 100%;
+    height: 100%;
+    padding-top: 0;
+    padding-bottom: 20px;
+    border-radius: 30px;
+    color: rgb(68, 16, 153);
+
+  }
+ 
+p{
+    background-color: black;
+}
+
+
+
+
+
+/* الصورة 2 */
+
+
+
+.helo1{
+    top:-100px;
+    background-color: black;
+    position: relative;
+    transform-style:preserve-3d;
+    transition: all 1s ease-in-out;
+    perspective: 1000px; 
+    margin-top: 100px;
+
+  }
+
+ 
+  .helo1:hover{
+
+    transform: rotateY(180deg);
+    background-color: black;
+
+}
+
+
+.helo1 div{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    backface-visibility: hidden; 
+    top: 0;
+    left: 0;
+    padding: 0px;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+
+
+  }
+
+
+  .helo1 .immg{
+    z-index: 2;
+  }
+
+  .helo1 .ppp{
+
+    z-index: 1;
+    transform: rotateY(180deg);
+    font-size: small;
+
+  }
+
+  .helo1 .ppp p{
+
+    width: 100%;
+    height: 100%;
+    padding-top: 0;
+    padding-bottom: 20px;
+    border-radius: 30px;
+    color: rgb(68, 16, 153);
+
+  }
+ 
+p{
+    background-color: black;
+}
+
+
+
+/* الصورة 3 */
+
+
+
+.heloo3{
+    top:-100px;
+    background-color: black;
+    position: relative;
+    transform-style:preserve-3d;
+    transition: all 1s ease-in-out;
+    perspective: 1000px; 
+    margin-top: 100px;
+
+  }
+
+ 
+  .heloo3:hover{
+
+    transform: rotateY(180deg);
+    background-color: black;
+
+}
+
+
+.heloo3 div{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    backface-visibility: hidden; 
+    top: 0;
+    left: 0;
+    padding: 0px;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+
+
+  }
+
+
+  .heloo3 .immg{
+    z-index: 2;
+  }
+
+  .heloo3 .ppp{
+
+    z-index: 1;
+    transform: rotateY(180deg);
+    font-size: small;
+
+  }
+
+  .heloo3 .ppp p{
+
+    width: 100%;
+    height: 100%;
+    padding-top: 0;
+    padding-bottom: 20px;
+    border-radius: 30px;
+    color: rgb(68, 16, 153);
+
+  }
+ 
+p{
+    background-color: black;
+}
+
+
+
+/* الصورة الرابعة */
+
+
+.helo4{
+    top:40px;
+    background-color: black;
+    position: relative;
+    transform-style:preserve-3d;
+    transition: all 1s ease-in-out;
+    perspective: 1000px; 
+  }
+
+ 
+  .helo4:hover{
+
+    transform: rotateY(180deg);
+    background-color: black;
+
+}
+
+
+.helo4 div{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    backface-visibility: hidden; 
+    top: 0;
+    left: 0;
+    padding: 0px;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+
+
+  }
+
+
+  .helo4 .immg{
+    z-index: 2;
+  }
+
+  .helo4 .ppp{
+
+    z-index: 1;
+    transform: rotateY(180deg);
+    font-size: small;
+
+  }
+
+  .helo4 .ppp p{
+
+    width: 100%;
+    height: 100%;
+    padding-top: 0;
+    padding-bottom: 20px;
+    border-radius: 30px;
+    color: rgb(68, 16, 153);
+
+  }
+ 
+p{
+    background-color: black;
+}
+
+
+/* الصورة الخامسة */
+
+
+
+.helo5{
+    top:40px;
+    background-color: black;
+    position: relative;
+    transform-style:preserve-3d;
+    transition: all 1s ease-in-out;
+    perspective: 1000px; 
+  }
+
+ 
+  .helo5:hover{
+
+    transform: rotateY(180deg);
+    background-color: black;
+
+}
+
+
+.helo5 div{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    backface-visibility: hidden; 
+    top: 0;
+    left: 0;
+    padding: 0px;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+
+
+  }
+
+
+  .helo5 .immg{
+    z-index: 2;
+  }
+
+  .helo5 .ppp{
+
+    z-index: 1;
+    transform: rotateY(180deg);
+    font-size: small;
+
+  }
+
+  .helo5 .ppp p{
+
+    width: 100%;
+    height: 100%;
+    padding-top: 0;
+    padding-bottom: 20px;
+    border-radius: 30px;
+    color: rgb(68, 16, 153);
+
+  }
+ 
+p{
+    background-color: black;
+}
+
+
+/* الصورة السادسة */
+
+
+
+.helo6{
+    top:40px;
+    background-color: black;
+    position: relative;
+    transform-style:preserve-3d;
+    transition: all 1s ease-in-out;
+    perspective: 1000px; 
+  }
+
+ 
+  .helo6:hover{
+
+    transform: rotateY(180deg);
+    background-color: black;
+
+}
+
+
+.helo6 div{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    backface-visibility: hidden; 
+    top: 0;
+    left: 0;
+    padding: 0px;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+
+
+  }
+
+
+  .helo6 .immg{
+    z-index: 2;
+  }
+
+  .helo6 .ppp{
+
+    z-index: 1;
+    transform: rotateY(180deg);
+    font-size: small;
+
+  }
+
+  .helo6 .ppp p{
+
+    width: 100%;
+    height: 100%;
+    padding-top: 0;
+    padding-bottom: 20px;
+    border-radius: 30px;
+    color: rgb(68, 16, 153);
+
+  }
+ 
+p{
+    background-color: black;
+}
+
+/* الصورة السابعة */
+
+
+
+.helo7{
+    top:180px;
+    background-color: black;
+    position: relative;
+    transform-style:preserve-3d;
+    transition: all 1s ease-in-out;
+    perspective: 1000px; 
+  }
+
+ 
+  .helo7:hover{
+
+    transform: rotateY(180deg);
+    background-color: black;
+
+}
+
+
+.helo7 div{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    backface-visibility: hidden; 
+    top: 0;
+    left: 0;
+    padding: 0px;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+
+
+  }
+
+
+  .helo7 .immg{
+    z-index: 2;
+  }
+
+  .helo7 .ppp{
+
+    z-index: 1;
+    transform: rotateY(180deg);
+    font-size: small;
+  }
+
+  .helo7 .ppp p{
+
+    width: 100%;
+    height: 100%;
+    padding-top: 0;
+    padding-bottom: 20px;
+    border-radius: 30px;
+    color: rgb(68, 16, 153);
+
+  }
+ 
+p{
+    background-color: black;
+}
+
+
+/* الصورة الثامنة */
+
+
+
+
+.helo8{
+    top:180px;
+    background-color: black;
+    position: relative;
+    transform-style:preserve-3d;
+    transition: all 1s ease-in-out;
+    perspective: 1000px; 
+  }
+
+ 
+  .helo8:hover{
+
+    transform: rotateY(180deg);
+    background-color: black;
+
+}
+
+
+.helo8 div{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    backface-visibility: hidden; 
+    top: 0;
+    left: 0;
+    padding: 0px;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+
+
+  }
+
+
+  .helo8 .immg{
+    z-index: 2;
+  }
+
+  .helo8 .ppp{
+
+    z-index: 1;
+    transform: rotateY(180deg);
+    font-size: small;
+  }
+
+  .helo8 .ppp p{
+
+    width: 100%;
+    height: 100%;
+    padding-top: 0;
+    padding-bottom: 20px;
+    border-radius: 30px;
+    color: rgb(68, 16, 153);
+
+  }
+ 
+p{
+    background-color: black;
+}
+
+
+
+/* الصورة التاسعة */
+
+
+
+
+
+.helo9{
+    top:180px;
+    background-color: black;
+    position: relative;
+    transform-style:preserve-3d;
+    transition: all 1s ease-in-out;
+    perspective: 1000px; 
+  }
+
+ .helo9 .ppp{
+
+    background-color: black;
+ }
+  .helo9:hover{
+
+    transform: rotateY(180deg);
+    background-color: black;
+
+}
+
+
+.helo9 div{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    backface-visibility: hidden; 
+    top: 0;
+    left: 0;
+    padding: 0px;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+
+
+  }
+
+
+  .helo9 .immg{
+    z-index: 2;
+  }
+
+  .helo9 .ppp{
+
+    z-index: 1;
+    transform: rotateY(180deg);
+    font-size: small;
+  }
+
+  .helo9 .ppp p{
+
+    width: 100%;
+    height: 100%;
+    padding-top: 0;
+    padding-bottom: 20px;
+    border-radius: 30px;
+    color: rgb(68, 16, 153);
+
+  }
+ 
+p{
+    background-color: black;
+}
+
+
+/* الصورة العاشره */
+
+
+
+.helo10{
+    top:340px;
+    background-color: black;
+    position: relative;
+    transform-style:preserve-3d;
+    transition: all 1s ease-in-out;
+    perspective: 1000px; 
+  }
+
+ 
+  .helo10:hover{
+
+    transform: rotateY(180deg);
+
+}
+
+
+.helo10 div{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    backface-visibility: hidden; 
+    top: 0;
+    left: 0;
+    padding: 0px;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+
+  }
+
+
+  .helo10 .immg{
+    z-index: 2;
+  }
+
+  .helo10 .ppp{
+
+    z-index: 1;
+    transform: rotateY(180deg);
+    font-size: small;
+  }
+
+  .helo10 .ppp p{
+
+    width: 100%;
+    height: 100%;
+    padding-top: 0;
+    padding-bottom: 20px;
+    border-radius: 30px;
+    color: rgb(68, 16, 153);
+
+  }
+ 
+.helo10 .ppp{
+    background-color: black;
+}
+
+
+/* الصورة 11 */
+
+
+
+
+
+.helo11{
+    top:340px;
+    background-color: black;
+    position: relative;
+    transform-style:preserve-3d;
+    transition: all 1s ease-in-out;
+    perspective: 1000px; 
+  }
+
+ 
+  .helo11:hover{
+
+    transform: rotateY(180deg);
+
+}
+
+
+.helo11 div{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    backface-visibility: hidden; 
+    top: 0;
+    left: 0;
+    padding: 0px;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+
+  }
+
+
+  .helo11 .immg{
+    z-index: 2;
+  }
+
+  .helo11 .ppp{
+
+    z-index: 1;
+    transform: rotateY(180deg);
+    font-size: small;
+  }
+
+  .helo11 .ppp p{
+
+    width: 100%;
+    height: 100%;
+    padding-top: 0;
+    padding-bottom: 20px;
+    border-radius: 30px;
+    color: rgb(68, 16, 153);
+
+  }
+ 
+.helo11 .ppp{
+    background-color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* الصورة 12 */
+
+
+
+
+
+.helo12{
+    top:340px;
+    background-color: black;
+    position: relative;
+    transform-style:preserve-3d;
+    transition: all 1s ease-in-out;
+    perspective: 1000px; 
+  }
+
+ 
+  .helo12:hover{
+
+    transform: rotateY(180deg);
+
+}
+
+
+.helo12 div{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    backface-visibility: hidden; 
+    top: 0;
+    left: 0;
+    padding: 0px;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+
+  }
+
+
+  .helo12 .immg{
+    z-index: 2;
+  }
+
+  .helo12 .ppp{
+
+    z-index: 1;
+    transform: rotateY(180deg);
+    font-size: small;
+  }
+
+  .helo12 .ppp p{
+
+    width: 100%;
+    height: 100%;
+    padding-top: 0;
+    padding-bottom: 20px;
+    border-radius: 30px;
+    color: rgb(68, 16, 153);
+
+  }
+ 
+.helo12 .ppp{
+    background-color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.mohamed h1{
+
+    color: brown;
+    text-align: center;
+    margin-top: 0px;
+    border: 5px;
+    border-radius: 50px;
+    background-color: rgb(206, 184, 184);
+    width: 350px;
+    margin-left: 20px;
+    display: inline;
+    margin-bottom: 200px;
+    position: absolute;
+    top: 180px;
+
+}
+.imgg{
+
+    display:inline;
+    border-radius: 50px;
+    background-color: aqua;
+    margin-top: 40px;
+    margin-left: 30px;
+    position: relative;
+    margin-bottom: 100px;
+    padding-right: 30px;
+}
+
+.ppp p{
+
+    text-align: center;
+    color: brown;
+    background-color: rgb(233, 217, 217);
+    font-size: x-large;
+    padding-top: 50px;
+}  
+
+
+
+h3{
+
+    color: brown;
+    text-align: center;
+    border-radius: 30px;
+    font-family: sans-serif;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    border-radius: 50px;
+    font-size: xx-large;
+
+}
+
+body{
+
+    background-color: rgb(175, 153, 153);
+}
+
+.imgg{
+
+    align-items: center;
+}
+
+
+.fot{
+
+    background-color: rgb(233, 217, 217);
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+.fot img{
+
+
+    width: 50%;
+
+
+
+}
+
+.fot h1{
+    
+    
+    text-align: center;
+    padding-top: 20px;
+    border-radius: 50px;
+    background-color: rgb(216, 169, 169);
+    color: brown;
+    width: 500px;
+    height: 100px;
+}
+
+
+a{
+
+
+  list-style-type: none;
+}

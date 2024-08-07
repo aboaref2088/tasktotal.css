@@ -1,0 +1,92 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  display: flex;
+  overflow-x: hidden;
+}
+a{
+  color: #000;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body .instagram-navbar{
+  display: flex;
+  position: fixed;
+}
+body .instagram-navbar ul li{
+  list-style-type: none;
+  display: flex;
+  padding: 10px;
+  margin: 10px;
+}
+body .instagram-navbar ul li em {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+body .instagram-navbar ul li a i{
+ padding: 10px;
+ font-size: 150%;
+}
+body .instagram-navbar ul li img{
+  border-radius: 50%;
+  width: 35px;
+  border: solid #000 2px;
+}
+body .instagram-navbar ul li b{
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+ justify-content: center;
+  align-items: center;
+ padding: 10px;
+}
+a:hover{ font-weight: bold;}
+body .contenr{
+  width: 80%;
+  display: grid;
+  position: relative;
+  left: 20%;
+}
+body .contenr .contenr1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  box-shadow: 0px 1px 0px #000;
+}
+body .contenr .contenr1 div img {
+  width: 200px;
+  border-radius: 50%;
+  margin: 70px;
+}
+body .contenr .contenr1 div p{display: inline;}
+body .contenr .contenr1 .txst1 .p{margin: 20px;}
+body .contenr .contenr1 .txst1 .p p{ padding: 20px; }
+body .contenr .contenr1 div a {
+  font-size: smaller;
+  background-color: rgb(214, 243, 237);
+ border-radius: 5px;
+ padding: 5px;
+ margin:  10px;
+}
+body .contenr  ul{
+display: flex;
+list-style-type: none;
+flex-direction: row;
+flex-wrap: wrap;
+}
+body .contenr  ul li{ width:21% ;
+margin: auto;
+padding: 10px 0;
+}
+body .contenr  ul li img {
+  width: 200px;
+  height: 200px;
+  border-radius: 10%;
+  border: #000 solid 2px;
+}
+@media screen {
+  
+}
