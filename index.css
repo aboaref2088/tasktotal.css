@@ -17,26 +17,22 @@
 }
 
 .parant .one img{
-    width: 50px;
+    width: 60px;
     border-radius: 50px;
     margin-left: 20px;
 }
 
 .parant .two{
 
-    margin-left: 0px;
+    margin-left: 20px;
 }
 
-.section1.one div{
-
-  width: 50%;
-}
 .parant .two .search .ab{
 
     background-color: rgb(211, 203, 203);
     border-radius: 50px;
     height: 40px;
-    width: 300px;
+    width: 250px;
     text-align: center;
     border: none;
     position: relative;
@@ -46,14 +42,15 @@
 
     position: absolute;
     width: 30px;
-    left: 80px;
-    padding-top: 8px;
+    left: 130px;
+    top: 20PX;
 }
 
 .parant div.tree{
 
     display: flex;
     flex-direction: row;
+
 
 }
 
@@ -78,11 +75,12 @@
 
     background-color:rgb(221, 221, 240);
     border-radius: 50px;
+    right: auto;
 }
 h2{
 
     margin-top: 13px;
-    margin-left: 20px;
+    margin-left: 30px;
     color: brown;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-top: 20px;
@@ -92,11 +90,19 @@ h2{
 .parant div.tree ul.instagram{
 
     background-color: rgb(20, 13, 13);
+    padding-right: 20px;
 }
 
+.tree h2{
 
+  width: 400px;
+  margin-left:auto;
+}
 
+.tree{
 
+  margin-right: 30px;
+}
 @media screen and (max-width: 480px){
     body{
       background-color: lightgreen;
@@ -327,7 +333,7 @@ h2{
     overflow-y: hidden;
 }
 .section1 .one {
-    width: 25%;
+    width: 15%;
     background-color:rgb(121, 82, 82);
     max-height:930px;
 }
@@ -335,12 +341,13 @@ h2{
 .section1 .one div h2{
 
     border-radius: 50px;
-    background-color:  rgb(221, 213, 213);
     margin-top: 50px;
     border-width: 30px;
     text-align: center;
-    margin-right: 20px;
+    margin-right: 15px;
     margin-bottom: 150px;
+    border-color: blue;
+    border: 5px;
 }
 
 .one:hover{
@@ -354,6 +361,7 @@ h2{
 
 .man{
     top: 1800px;
+    padding-left: 125px;
 }
 
 
@@ -445,8 +453,6 @@ h2{
     border-radius: 20px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-
-
   }
 
 
@@ -487,7 +493,7 @@ p{
 
 .helo1{
     top:-100px;
-    background-color: black;
+    background-color: rgb(230, 177, 177);
     position: relative;
     transform-style:preserve-3d;
     transition: all 1s ease-in-out;
@@ -501,6 +507,7 @@ p{
 
     transform: rotateY(180deg);
     background-color: black;
+    
 
 }
 
@@ -544,10 +551,6 @@ p{
 
   }
  
-p{
-    background-color: black;
-}
-
 
 
 /* الصورة 3 */
@@ -1373,9 +1376,3 @@ body{
     height: 100px;
 }
 
-
-a{
-
-
-  list-style-type: none;
-}
