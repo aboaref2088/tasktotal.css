@@ -1,0 +1,112 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: Arial, sans-serif;
+    background-color: #222;
+    color: #fff;
+}
+.crud{
+    padding-top: 40px;
+    width: 80%;
+    margin: auto;
+}
+.head{
+    text-align: center;
+    text-transform: uppercase;
+    margin: 10px 0px;
+}
+p{
+    color: aqua;
+    font-size: xx-large;
+}
+input{
+    width: 100%;
+    height: 30px;
+    outline: none;
+    border: none;
+    background: #111;
+    margin: 4px  0px;
+    border-radius: 4px;
+    padding: 4px;
+    color: #fff;
+}
+input:focus{
+    background:#000;
+    transform: scale(1.1);
+}
+.price input{
+    width: 20%;
+}
+#total{
+    background: #a00d02;
+    padding: 5px 2px;
+    border-radius: 4px;
+}
+#total::before{
+    content: "TOTAL";
+}
+button{
+    width: 100%;
+    height: 30PX;
+    border: none;
+    cursor: pointer;
+    background: #470053;
+    color: #fff;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+button:hover{
+    background: #6e5174;
+    letter-spacing: 2px;
+}
+.btnSearch{
+    display: flex;
+    justify-content: space-between;
+}
+.btnSearch button{
+    width: 45%;
+}
+/* tabl */
+table{
+    width: 100%;
+    text-align: center;
+    margin: 10px 0px;
+}
+table th{
+    text-transform: uppercase;
+}
+th,td{
+    padding: 5px;
+}
+#clearButton{
+    background-color: #da2710;
+}
+#ddeletAll{
+    margin: 10px;
+}
+#color{
+background-color: #a00d02;
+color: #fff;
+}
+.page{
+    justify-content: center;
+    display: flex;
+}
+.page h4{
+    list-style: none;
+    color: #a59db1;
+    margin-left: 20px;
+    text-decoration: none; /* إزالة الخط تحت الرابط */
+
+}
+.page h4:hover{
+    color: aqua;
+    font-size: large;
+}
+a{
+    text-decoration: none; /* إزالة الخط تحت الرابط */
+
+}

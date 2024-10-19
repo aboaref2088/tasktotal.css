@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>فاتورة بيع</title>
+    <link rel="stylesheet" href="/outcss.css">
+</head>
+<body>
+    <div class="crud">
+        <div class="page">
+        <a href="http://127.0.0.1:5501/index.html "  target="_blank"> <h2>فاتورة شراء </h2> </a>
+        </div>
+        <h1 class="head">فاتورة بيع</h1>
+
+    
+        <input type="text" id="search" placeholder="ابحث عن الأصناف..." onkeyup="searchDate(this.value)">
+        <div class="btnSearch">
+            <button id="searchTitle" onclick="getSearchMood('searchTitle')">بحث بالاسم</button>
+            <button id="searchCategory" onclick="getSearchMood('searchCategory')">بحث بالفئة</button>
+        </div>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>العنوان</th>
+                    <th>السعر</th>
+                    <th>الضرائب</th>
+                    <th>الإعلانات</th>
+                    <th>الخصم</th>
+                    <th>الإجمالي</th>
+                    <th>الفئة</th>
+                    <th>الإجراءات</th>
+                </tr>
+            </thead>
+            <tbody id="searchResults"></tbody>
+        </table>
+
+        <div id="ddeletAll"></div>
+<div class="fflex">
+        <h3>قائمة الفاتورة</h3>
+        <div id="invoiceSummary">
+            <p>إجمالي عدد الأصناف: <span id="totalItems">0</span></p>
+            <p>إجمالي الأسعار: <span id="totalPrice">0</span></p>
+</div>
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>العنوان</th>
+                    <th>الإجمالي</th>
+                    <th>الإجراءات</th>
+                </tr>
+            </thead>
+            <tbody id="invoiceBody"></tbody>
+        </table>
+
+        <div class="price">
+            <div id="total"></div>
+            <button id="completeSale">إتمام البيع</button>
+        </div>
+    </div>
+
+    <script src="/sel.js"></script>
+</body>
+</html>
